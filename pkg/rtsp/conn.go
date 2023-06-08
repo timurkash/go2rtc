@@ -4,10 +4,10 @@ import (
 	"bufio"
 	"encoding/binary"
 	"fmt"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/tcp"
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/tcp"
 	"io"
 	"net"
 	"net/url"
@@ -270,7 +270,7 @@ func (c *Conn) WriteRequest(req *tcp.Request) error {
 
 	c.sequence++
 	// important to send case sensitive CSeq
-	// https://github.com/AlexxIT/go2rtc/issues/7
+	// https://github.com/timurkash/go2rtc/issues/7
 	req.Header["CSeq"] = []string{strconv.Itoa(c.sequence)}
 
 	c.auth.Write(req)

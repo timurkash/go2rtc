@@ -1,8 +1,8 @@
 package device
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/api"
-	"github.com/AlexxIT/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/pkg/core"
 	"os"
 	"os/exec"
 	"regexp"

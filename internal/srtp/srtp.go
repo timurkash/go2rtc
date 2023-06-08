@@ -1,8 +1,8 @@
 package srtp
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/app"
-	"github.com/AlexxIT/go2rtc/pkg/srtp"
+	"github.com/timurkash/go2rtc/internal/app"
+	"github.com/timurkash/go2rtc/pkg/srtp"
 	"net"
 )
 

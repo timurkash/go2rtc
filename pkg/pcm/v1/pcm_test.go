@@ -1,8 +1,8 @@
 package v1
 
 import (
-	v2 "github.com/AlexxIT/go2rtc/pkg/pcm"
 	"github.com/stretchr/testify/require"
+	v2 "github.com/timurkash/go2rtc/pkg/pcm"
 	"testing"
 )
 

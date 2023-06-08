@@ -1,8 +1,8 @@
 package pcm
 
 import (
-	"github.com/AlexxIT/go2rtc/pkg/core"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/core"
 )
 
 func Resample(codec *core.Codec, sampleRate uint32, handler core.HandlerFunc) core.HandlerFunc {

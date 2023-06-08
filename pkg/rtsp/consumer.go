@@ -1,13 +1,13 @@
 package rtsp
 
 import (
-	"github.com/AlexxIT/go2rtc/pkg/aac"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/h264"
-	"github.com/AlexxIT/go2rtc/pkg/h265"
-	"github.com/AlexxIT/go2rtc/pkg/mjpeg"
-	"github.com/AlexxIT/go2rtc/pkg/pcm"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/aac"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/h264"
+	"github.com/timurkash/go2rtc/pkg/h265"
+	"github.com/timurkash/go2rtc/pkg/mjpeg"
+	"github.com/timurkash/go2rtc/pkg/pcm"
 	"time"
 )
 
@@ -62,7 +62,7 @@ func (c *Conn) AddTrack(media *core.Media, codec *core.Codec, track *core.Receiv
 	// important to send original codec for valid IsRTP check
 	sender.Handler = c.packetWriter(track.Codec, channel, codec.PayloadType)
 
-	// https://github.com/AlexxIT/go2rtc/issues/331
+	// https://github.com/timurkash/go2rtc/issues/331
 	if c.mode == core.ModeActiveProducer && track.Codec.Name == core.CodecPCMA {
 		sender.Handler = pcm.RepackBackchannel(sender.Handler)
 	}

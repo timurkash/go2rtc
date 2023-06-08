@@ -2,13 +2,13 @@ package ffmpeg
 
 import (
 	"errors"
-	"github.com/AlexxIT/go2rtc/internal/app"
-	"github.com/AlexxIT/go2rtc/internal/ffmpeg/device"
-	"github.com/AlexxIT/go2rtc/internal/ffmpeg/hardware"
-	"github.com/AlexxIT/go2rtc/internal/rtsp"
-	"github.com/AlexxIT/go2rtc/internal/streams"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/ffmpeg"
+	"github.com/timurkash/go2rtc/internal/app"
+	"github.com/timurkash/go2rtc/internal/ffmpeg/device"
+	"github.com/timurkash/go2rtc/internal/ffmpeg/hardware"
+	"github.com/timurkash/go2rtc/internal/rtsp"
+	"github.com/timurkash/go2rtc/internal/streams"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/ffmpeg"
 	"net/url"
 	"strings"
 )

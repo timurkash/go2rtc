@@ -6,12 +6,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/AlexxIT/go2rtc/internal/app"
-	"github.com/AlexxIT/go2rtc/internal/streams"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/rtsp"
-	"github.com/AlexxIT/go2rtc/pkg/tcp"
 	"github.com/rs/zerolog"
+	"github.com/timurkash/go2rtc/internal/app"
+	"github.com/timurkash/go2rtc/internal/streams"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/rtsp"
+	"github.com/timurkash/go2rtc/pkg/tcp"
 )
 
 func Init() {

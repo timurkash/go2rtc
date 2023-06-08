@@ -5,7 +5,7 @@ import (
 	"crypto/sha1"
 	"encoding/base64"
 	"errors"
-	"github.com/AlexxIT/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/core"
 	"html"
 	"io"
 	"net/http"

@@ -1,13 +1,13 @@
 package onvif
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/api"
-	"github.com/AlexxIT/go2rtc/internal/app"
-	"github.com/AlexxIT/go2rtc/internal/rtsp"
-	"github.com/AlexxIT/go2rtc/internal/streams"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/onvif"
 	"github.com/rs/zerolog"
+	"github.com/timurkash/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/internal/app"
+	"github.com/timurkash/go2rtc/internal/rtsp"
+	"github.com/timurkash/go2rtc/internal/streams"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/onvif"
 	"io"
 	"net"
 	"net/http"

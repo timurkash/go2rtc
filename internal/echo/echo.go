@@ -2,10 +2,10 @@ package echo
 
 import (
 	"bytes"
-	"github.com/AlexxIT/go2rtc/internal/app"
-	"github.com/AlexxIT/go2rtc/internal/streams"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/shell"
+	"github.com/timurkash/go2rtc/internal/app"
+	"github.com/timurkash/go2rtc/internal/streams"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/shell"
 	"os/exec"
 )
 

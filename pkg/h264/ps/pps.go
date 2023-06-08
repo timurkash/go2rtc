@@ -2,7 +2,7 @@ package ps
 
 import (
 	"errors"
-	"github.com/AlexxIT/go2rtc/pkg/h264/golomb"
+	"github.com/timurkash/go2rtc/pkg/h264/golomb"
 )
 
 const PPSHeader = 0x68

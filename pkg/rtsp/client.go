@@ -4,15 +4,15 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
-	"github.com/AlexxIT/go2rtc/pkg/tcp/websocket"
+	"github.com/timurkash/go2rtc/pkg/tcp/websocket"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/tcp"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/tcp"
 )
 
 var Timeout = time.Second * 5
@@ -118,7 +118,7 @@ func (c *Conn) Describe() error {
 
 	if c.UserAgent != "" {
 		// this camera will answer with 401 on DESCRIBE without User-Agent
-		// https://github.com/AlexxIT/go2rtc/issues/235
+		// https://github.com/timurkash/go2rtc/issues/235
 		req.Header.Set("User-Agent", c.UserAgent)
 	}
 

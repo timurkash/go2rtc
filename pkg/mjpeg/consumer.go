@@ -2,8 +2,8 @@ package mjpeg
 
 import (
 	"encoding/json"
-	"github.com/AlexxIT/go2rtc/pkg/core"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/core"
 )
 
 type Consumer struct {

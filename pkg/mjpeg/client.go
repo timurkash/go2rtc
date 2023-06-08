@@ -3,9 +3,9 @@ package mjpeg
 import (
 	"bufio"
 	"errors"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/tcp"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/tcp"
 	"io"
 	"net/http"
 	"net/textproto"

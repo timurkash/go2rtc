@@ -2,9 +2,9 @@ package tapo
 
 import (
 	"bytes"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/mpegts"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/mpegts"
 	"strconv"
 )
 

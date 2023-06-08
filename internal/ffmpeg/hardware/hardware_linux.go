@@ -1,7 +1,7 @@
 package hardware
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/internal/api"
 	"runtime"
 )
 

@@ -1,6 +1,6 @@
 package mp4
 
-import "github.com/AlexxIT/go2rtc/pkg/core"
+import "github.com/timurkash/go2rtc/pkg/core"
 
 // ParseQuery - like usual parse, but with mp4 param handler
 func ParseQuery(query map[string][]string) []*core.Media {

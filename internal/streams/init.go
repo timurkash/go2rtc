@@ -1,10 +1,10 @@
 package streams
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/api"
-	"github.com/AlexxIT/go2rtc/internal/app"
-	"github.com/AlexxIT/go2rtc/internal/app/store"
 	"github.com/rs/zerolog"
+	"github.com/timurkash/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/internal/app"
+	"github.com/timurkash/go2rtc/internal/app/store"
 	"net/http"
 	"net/url"
 )
@@ -104,7 +104,7 @@ func streamsHandler(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		// support {input} templates: https://github.com/AlexxIT/go2rtc#module-hass
+		// support {input} templates: https://github.com/timurkash/go2rtc#module-hass
 		stream := Get(name)
 		if stream == nil {
 			stream = NewTemplate(name, src)

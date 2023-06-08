@@ -3,11 +3,11 @@ package webrtc
 import (
 	"errors"
 	"fmt"
-	"github.com/AlexxIT/go2rtc/pkg/core"
 	"github.com/pion/ice/v2"
 	"github.com/pion/sdp/v3"
 	"github.com/pion/stun"
 	"github.com/pion/webrtc/v3"
+	"github.com/timurkash/go2rtc/pkg/core"
 	"hash/crc32"
 	"net"
 	"strconv"

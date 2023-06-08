@@ -3,7 +3,7 @@ package streams
 import (
 	"encoding/json"
 	"errors"
-	"github.com/AlexxIT/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/core"
 	"strings"
 	"sync"
 	"time"

@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/app"
+	"github.com/timurkash/go2rtc/internal/app"
 	"gopkg.in/yaml.v3"
 	"io"
 	"net/http"

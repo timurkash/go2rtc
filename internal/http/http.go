@@ -2,12 +2,12 @@ package http
 
 import (
 	"errors"
-	"github.com/AlexxIT/go2rtc/internal/streams"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/magic"
-	"github.com/AlexxIT/go2rtc/pkg/mjpeg"
-	"github.com/AlexxIT/go2rtc/pkg/rtmp"
-	"github.com/AlexxIT/go2rtc/pkg/tcp"
+	"github.com/timurkash/go2rtc/internal/streams"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/magic"
+	"github.com/timurkash/go2rtc/pkg/mjpeg"
+	"github.com/timurkash/go2rtc/pkg/rtmp"
+	"github.com/timurkash/go2rtc/pkg/tcp"
 	"net"
 	"net/http"
 	"net/url"

@@ -1,8 +1,8 @@
 package fake
 
 import (
-	"github.com/AlexxIT/go2rtc/pkg/streamer"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/streamer"
 	"time"
 )
 

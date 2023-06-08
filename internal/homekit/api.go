@@ -2,11 +2,11 @@ package homekit
 
 import (
 	"fmt"
-	"github.com/AlexxIT/go2rtc/internal/api"
-	"github.com/AlexxIT/go2rtc/internal/app/store"
-	"github.com/AlexxIT/go2rtc/internal/streams"
-	"github.com/AlexxIT/go2rtc/pkg/hap"
-	"github.com/AlexxIT/go2rtc/pkg/hap/mdns"
+	"github.com/timurkash/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/internal/app/store"
+	"github.com/timurkash/go2rtc/internal/streams"
+	"github.com/timurkash/go2rtc/pkg/hap"
+	"github.com/timurkash/go2rtc/pkg/hap/mdns"
 	"net/http"
 	"net/url"
 	"strings"

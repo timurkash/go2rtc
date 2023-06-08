@@ -2,9 +2,9 @@ package h264
 
 import (
 	"encoding/binary"
-	"github.com/AlexxIT/go2rtc/pkg/core"
 	"github.com/pion/rtp"
 	"github.com/pion/rtp/codecs"
+	"github.com/timurkash/go2rtc/pkg/core"
 )
 
 const RTPPacketVersionAVC = 0
@@ -35,7 +35,7 @@ func RTPDepay(codec *core.Codec, handler core.HandlerFunc) core.HandlerFunc {
 				buf = append(buf, payload...)
 				return
 			case NALUTypeSEI:
-				// RtspServer https://github.com/AlexxIT/go2rtc/issues/244
+				// RtspServer https://github.com/timurkash/go2rtc/issues/244
 				// sends, marked SPS, marked PPS, marked SEI, marked IFrame
 				return
 			}

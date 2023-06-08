@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
-	"github.com/AlexxIT/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/core"
 	"strings"
 )
 
@@ -61,7 +61,7 @@ func GetProfileLevelID(fmtp string) string {
 	if fmtp != "" {
 		var conf []byte
 		// some cameras has wrong profile-level-id
-		// https://github.com/AlexxIT/go2rtc/issues/155
+		// https://github.com/timurkash/go2rtc/issues/155
 		if s := core.Between(fmtp, "sprop-parameter-sets=", ","); s != "" {
 			if sps, _ := base64.StdEncoding.DecodeString(s); len(sps) >= 4 {
 				conf = sps[1:4]

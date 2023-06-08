@@ -2,7 +2,7 @@ package magic
 
 import (
 	"encoding/json"
-	"github.com/AlexxIT/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/core"
 )
 
 func (c *Client) GetMedias() []*core.Media {

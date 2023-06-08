@@ -2,12 +2,12 @@ package mp4
 
 import (
 	"errors"
-	"github.com/AlexxIT/go2rtc/internal/api"
-	"github.com/AlexxIT/go2rtc/internal/api/ws"
-	"github.com/AlexxIT/go2rtc/internal/streams"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/mp4"
-	"github.com/AlexxIT/go2rtc/pkg/tcp"
+	"github.com/timurkash/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/internal/api/ws"
+	"github.com/timurkash/go2rtc/internal/streams"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/mp4"
+	"github.com/timurkash/go2rtc/pkg/tcp"
 	"strings"
 )
 

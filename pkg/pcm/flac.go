@@ -6,10 +6,10 @@ package pcm
 
 import (
 	"encoding/binary"
-	"github.com/AlexxIT/go2rtc/pkg/core"
 	"github.com/pion/rtp"
 	"github.com/sigurn/crc16"
 	"github.com/sigurn/crc8"
+	"github.com/timurkash/go2rtc/pkg/core"
 	"unicode/utf8"
 )
 

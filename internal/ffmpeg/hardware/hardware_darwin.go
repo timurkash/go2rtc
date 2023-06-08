@@ -1,7 +1,7 @@
 package hardware
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/internal/api"
 )
 
 const ProbeVideoToolboxH264 = "-f lavfi -i testsrc2 -t 1 -c h264_videotoolbox -f null -"

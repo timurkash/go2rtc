@@ -1,8 +1,8 @@
 package hardware
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/api"
-	"github.com/AlexxIT/go2rtc/pkg/ffmpeg"
+	"github.com/timurkash/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/pkg/ffmpeg"
 	"net/http"
 	"os/exec"
 	"strings"

@@ -1,11 +1,11 @@
 package magic
 
 import (
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/h264"
-	"github.com/AlexxIT/go2rtc/pkg/h265"
-	"github.com/AlexxIT/go2rtc/pkg/mjpeg"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/h264"
+	"github.com/timurkash/go2rtc/pkg/h265"
+	"github.com/timurkash/go2rtc/pkg/mjpeg"
 )
 
 type Keyframe struct {

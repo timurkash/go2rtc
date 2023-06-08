@@ -2,9 +2,9 @@ package h265
 
 import (
 	"encoding/binary"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/h264"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/h264"
 )
 
 func RTPDepay(codec *core.Codec, handler core.HandlerFunc) core.HandlerFunc {
@@ -19,7 +19,7 @@ func RTPDepay(codec *core.Codec, handler core.HandlerFunc) core.HandlerFunc {
 		nuType := (data[0] >> 1) & 0x3F
 		//log.Printf("[RTP] codec: %s, nalu: %2d, size: %6d, ts: %10d, pt: %2d, ssrc: %d, seq: %d, %v", track.Codec.Name, nuType, len(packet.Payload), packet.Timestamp, packet.PayloadType, packet.SSRC, packet.SequenceNumber, packet.Marker)
 
-		// Fix for RtspServer https://github.com/AlexxIT/go2rtc/issues/244
+		// Fix for RtspServer https://github.com/timurkash/go2rtc/issues/244
 		if packet.Marker && len(data) < h264.PSMaxSize {
 			switch nuType {
 			case NALUTypeVPS, NALUTypeSPS, NALUTypePPS:

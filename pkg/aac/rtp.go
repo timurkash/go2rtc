@@ -2,8 +2,8 @@ package aac
 
 import (
 	"encoding/binary"
-	"github.com/AlexxIT/go2rtc/pkg/core"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/core"
 )
 
 const RTPPacketVersionAAC = 0

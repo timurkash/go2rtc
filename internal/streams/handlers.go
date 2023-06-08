@@ -2,7 +2,7 @@ package streams
 
 import (
 	"fmt"
-	"github.com/AlexxIT/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/core"
 	"strings"
 	"sync"
 )

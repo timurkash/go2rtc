@@ -2,9 +2,9 @@ package camera
 
 import (
 	"errors"
-	"github.com/AlexxIT/go2rtc/pkg/hap"
 	"github.com/brutella/hap/characteristic"
 	"github.com/brutella/hap/rtp"
+	"github.com/timurkash/go2rtc/pkg/hap"
 )
 
 type Client struct {

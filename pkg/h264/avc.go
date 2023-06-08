@@ -3,8 +3,8 @@ package h264
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/AlexxIT/go2rtc/pkg/core"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/core"
 )
 
 func AnnexB2AVC(b []byte) []byte {

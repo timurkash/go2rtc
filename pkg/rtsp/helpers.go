@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/AlexxIT/go2rtc/pkg/core"
 	"github.com/pion/rtcp"
 	"github.com/pion/sdp/v3"
+	"github.com/timurkash/go2rtc/pkg/core"
 )
 
 type RTCP struct {

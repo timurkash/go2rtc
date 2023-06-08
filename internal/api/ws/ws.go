@@ -1,9 +1,9 @@
 package ws
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/api"
 	"github.com/gorilla/websocket"
 	"github.com/rs/zerolog/log"
+	"github.com/timurkash/go2rtc/internal/api"
 	"net/http"
 	"net/url"
 	"strings"
@@ -75,7 +75,7 @@ func initWS(origin string) {
 				return true
 			}
 			log.Trace().Msgf("[api.ws] origin=%s, host=%s", o.Host, r.Host)
-			// https://github.com/AlexxIT/go2rtc/issues/118
+			// https://github.com/timurkash/go2rtc/issues/118
 			if i := strings.IndexByte(o.Host, ':'); i > 0 {
 				return o.Host[:i] == r.Host
 			}

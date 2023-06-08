@@ -1,9 +1,9 @@
 package webrtc
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/api/ws"
-	"github.com/AlexxIT/go2rtc/pkg/webrtc"
 	"github.com/pion/sdp/v3"
+	"github.com/timurkash/go2rtc/internal/api/ws"
+	"github.com/timurkash/go2rtc/pkg/webrtc"
 	"strconv"
 	"strings"
 )

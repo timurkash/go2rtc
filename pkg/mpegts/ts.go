@@ -4,14 +4,14 @@ import (
 	"bytes"
 	"encoding/hex"
 	"encoding/json"
-	"github.com/AlexxIT/go2rtc/pkg/aac"
-	"github.com/AlexxIT/go2rtc/pkg/core"
-	"github.com/AlexxIT/go2rtc/pkg/h264"
 	"github.com/deepch/vdk/av"
 	"github.com/deepch/vdk/codec/aacparser"
 	"github.com/deepch/vdk/codec/h264parser"
 	"github.com/deepch/vdk/format/ts"
 	"github.com/pion/rtp"
+	"github.com/timurkash/go2rtc/pkg/aac"
+	"github.com/timurkash/go2rtc/pkg/core"
+	"github.com/timurkash/go2rtc/pkg/h264"
 	"time"
 )
 

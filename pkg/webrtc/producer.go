@@ -1,8 +1,8 @@
 package webrtc
 
 import (
-	"github.com/AlexxIT/go2rtc/pkg/core"
 	"github.com/pion/webrtc/v3"
+	"github.com/timurkash/go2rtc/pkg/core"
 )
 
 func (c *Conn) GetTrack(media *core.Media, codec *core.Codec) (*core.Receiver, error) {

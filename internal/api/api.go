@@ -2,8 +2,8 @@ package api
 
 import (
 	"encoding/json"
-	"github.com/AlexxIT/go2rtc/internal/app"
 	"github.com/rs/zerolog"
+	"github.com/timurkash/go2rtc/internal/app"
 	"net"
 	"net/http"
 	"os"

@@ -3,7 +3,7 @@ package debug
 import (
 	"bytes"
 	"fmt"
-	"github.com/AlexxIT/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/internal/api"
 	"net/http"
 	"runtime"
 )
@@ -14,22 +14,22 @@ var stackSkip = [][]byte{
 	[]byte("created by os/signal.Notify"),
 
 	// api/stack.go
-	[]byte("github.com/AlexxIT/go2rtc/internal/api.stackHandler"),
+	[]byte("github.com/timurkash/go2rtc/internal/api.stackHandler"),
 
 	// api/api.go
-	[]byte("created by github.com/AlexxIT/go2rtc/internal/api.Init"),
+	[]byte("created by github.com/timurkash/go2rtc/internal/api.Init"),
 	[]byte("created by net/http.(*connReader).startBackgroundRead"),
 	[]byte("created by net/http.(*Server).Serve"), // TODO: why two?
 
-	[]byte("created by github.com/AlexxIT/go2rtc/internal/rtsp.Init"),
-	[]byte("created by github.com/AlexxIT/go2rtc/internal/srtp.Init"),
+	[]byte("created by github.com/timurkash/go2rtc/internal/rtsp.Init"),
+	[]byte("created by github.com/timurkash/go2rtc/internal/srtp.Init"),
 
 	// webrtc/api.go
 	[]byte("created by github.com/pion/ice/v2.NewTCPMuxDefault"),
 	[]byte("created by github.com/pion/ice/v2.NewUDPMuxDefault"),
 }
 
-func stackHandler(w http.ResponseWriter, r *http.Request) {
+func stackHandler(w http.ResponseWriter, _ *http.Request) {
 	sep := []byte("\n\n")
 	buf := make([]byte, 65535)
 	i := 0

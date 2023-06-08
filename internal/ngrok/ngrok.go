@@ -2,10 +2,10 @@ package ngrok
 
 import (
 	"fmt"
-	"github.com/AlexxIT/go2rtc/internal/app"
-	"github.com/AlexxIT/go2rtc/internal/webrtc"
-	"github.com/AlexxIT/go2rtc/pkg/ngrok"
 	"github.com/rs/zerolog"
+	"github.com/timurkash/go2rtc/internal/app"
+	"github.com/timurkash/go2rtc/internal/webrtc"
+	"github.com/timurkash/go2rtc/pkg/ngrok"
 	"net"
 	"strings"
 )

@@ -3,9 +3,9 @@ package hass
 import (
 	"encoding/base64"
 	"encoding/json"
-	"github.com/AlexxIT/go2rtc/internal/api"
-	"github.com/AlexxIT/go2rtc/internal/streams"
-	"github.com/AlexxIT/go2rtc/internal/webrtc"
+	"github.com/timurkash/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/internal/streams"
+	"github.com/timurkash/go2rtc/internal/webrtc"
 	"net"
 	"net/http"
 	"strings"

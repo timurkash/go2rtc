@@ -1,7 +1,7 @@
 package device
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/internal/api"
 	"net/http"
 	"net/url"
 	"strconv"

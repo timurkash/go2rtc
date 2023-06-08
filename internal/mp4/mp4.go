@@ -1,18 +1,18 @@
 package mp4
 
 import (
-	"github.com/AlexxIT/go2rtc/internal/api/ws"
+	"github.com/timurkash/go2rtc/internal/api/ws"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/AlexxIT/go2rtc/internal/api"
-	"github.com/AlexxIT/go2rtc/internal/app"
-	"github.com/AlexxIT/go2rtc/internal/streams"
-	"github.com/AlexxIT/go2rtc/pkg/mp4"
-	"github.com/AlexxIT/go2rtc/pkg/tcp"
 	"github.com/rs/zerolog"
+	"github.com/timurkash/go2rtc/internal/api"
+	"github.com/timurkash/go2rtc/internal/app"
+	"github.com/timurkash/go2rtc/internal/streams"
+	"github.com/timurkash/go2rtc/pkg/mp4"
+	"github.com/timurkash/go2rtc/pkg/tcp"
 )
 
 func Init() {
